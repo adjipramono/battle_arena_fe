@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battle Arena (bug hunt)</title>
+</head>
+<body>
+
+  <h1>Battle Arena</h1>
+  <p>A hero fights a monster. The first to reach 0 HP loses!</p>
+  <p><a href="#rules">Rules</a> | <a href="#log">Battle log</a></p>
+
+  <h2>Hero</h2>
+  <img src="images/heroo.gif" alt="Byte the knight" width="120">
+  <ul>
+    <li><strong>HP: <span id="hero-hp">100</span></li>
+  </ul>
+
+  <h2>Monster</h2>
+  <img src="images/monster.gif" alt="Bugzilla the bug monster" width="120">
+  <ul>
+    <li>HP: <span id="monster-hp">100</span></li>
+  </ul>
+
+  <h2>Your move</h2>
+  <buton id="attack-btn">Attack</buton>
+  <button id="heal-btn">Heal</button>
+
+  <h2 id="log">Battle log</h2>
+  <ol id="battle-log">
+    <li>Hero hits for 12</li>
+    <li>Monster hits for 9</li>
+  </ol>
+
+  <h2 id="rulez">Rules</h2>
+  <ol>
+    <li>Both fighters start with 100 HP.</li>
+    <li>The first to reach 0 HP loses.</li>
+  </ol>
+
+</body>
+</html>

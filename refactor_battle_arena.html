@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battle Arena</title>
+</head>
+<body>
+
+  <h1>Battle Arena</h1>
+  <p>A hero fights a monster. The first to reach 0 HP loses!</p>
+
+  <!-- HERO -->
+  <h2>Hero</h2>
+  <img src="images/hero.gif" alt="Byte the knight" width="120">
+  <ul>
+    <li>HP: <span id="hero-hp">100</span></li>
+  </ul>
+
+  <!-- MONSTER -->
+  <h2>Monster</h2>
+  <img src="images/monster.gif" alt="Bugzilla the bug monster" width="120">
+  <ul>
+    <li>HP: <span id="monster-hp">100</span></li>
+  </ul>
+
+  <!-- ACTIONS -->
+  <h2>Your move</h2>
+  <button id="attack-btn">Attack</button>
+  <button id="heal-btn">Heal</button>
+
+  <!-- BATTLE LOG -->
+  <h2>Battle log</h2>
+  <ol id="battle-log">
+    <li>Hero hits for 12</li>
+    <li>Monster hits for 9</li>
+    <li>Hero heals!</li>
+  </ol>
+
+  <!-- RESULT -->
+  <h2>Result</h2>
+  <p id="result">The battle has not started yet.</p>
+
+</body>
+</html>
